@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ban';
+  src:  url('ban.eot?yktj3p');
+  src:  url('ban.eot?yktj3p#iefix') format('embedded-opentype'),
+    url('ban.ttf?yktj3p') format('truetype'),
+    url('ban.woff?yktj3p') format('woff'),
+    url('ban.svg?yktj3p#ban') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
