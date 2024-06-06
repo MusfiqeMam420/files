@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @font-face {
   font-family: 'ban';
   src:  url('ban.eot?yktj3p');
@@ -34,4 +35,45 @@
 }
 .ban-bag:before {
   content: "\e902";
+}
+      .new-arrival-main-area{
+            background: url(./new-arrival.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 70px;
+            font-family: "Inter", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .arraival-text{
+          font-weight: 500;
+          font-size: 15px;
+          color: #202020;
+         
+        }
+
+        .arrival-tag {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-weight: 600;
+            color: #ca1016;
+            
+           
+        }
+
+        
+        .arrival-tag span{
+            margin-top: 3px;
+            color: #252525;
+        }
+
+        @media screen and (max-width: 680px) {
+            .arraival-text{
+          display: none;
+        }
 }
